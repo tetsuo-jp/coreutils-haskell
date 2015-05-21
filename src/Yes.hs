@@ -9,5 +9,5 @@ c_yes = repeat "y"
 {-
 main2 :: IO ()
 main2 = do putStrLn "y"
-           main
+           main2
 -}

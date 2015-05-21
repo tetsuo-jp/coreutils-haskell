@@ -1,22 +1,9 @@
-TARGET=yes echo cat uniq head
+TARGET=yes echo cat uniq head wc
 
 all: $(TARGET)
 
-yes: Yes.hs
+%: %.hs
 	ghc -o $@ $<
-
-echo: Echo.hs
-	ghc -o $@ $<
-
-cat: Cat.hs
-	ghc -o $@ $<
-
-uniq: Uniq.hs
-	ghc -o $@ $<
-
-head: Head.hs
-	ghc -o $@ $<
-
 clean:
 	rm -f *.o *.hi
 
