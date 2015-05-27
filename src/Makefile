@@ -1,4 +1,4 @@
-TARGET=yes echo cat uniq head wc
+TARGET=yes echo cat uniq head wc mkdir rmdir pwd cd
 
 all: $(TARGET)
 
