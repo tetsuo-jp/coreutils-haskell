@@ -1,4 +1,4 @@
-TARGET=yes echo cat uniq head wc mkdir rmdir pwd cd
+TARGET=yes echo cat uniq head wc mkdir rmdir pwd cd true false basename logname
 
 all: $(TARGET)
 
